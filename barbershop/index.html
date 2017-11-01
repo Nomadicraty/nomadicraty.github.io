@@ -9,34 +9,34 @@
       <div class="container">
         <nav class="main-navigation">
           <ul>
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">Информация</a></li>
-            <li><a href="#">Новости</a></li>
-            <li><a href="#">Прайс-лист</a></li>
-            <li><a href="#">Магазин</a></li>
-            <li><a href="#">Контакты</a></li>
+            <li><a href="#">ГЛАВНАЯ</a></li>
+            <li><a href="#">ИНФОРМАЦИЯ</a></li>
+            <li><a href="#">НОВОСТИ</a></li>
+            <li><a href="#">ПРАЙС-ЛИСТ</a></li>
+            <li><a href="#">МАГАЗИН</a></li>
+            <li><a href="#">КОНТАКТЫ</a></li>
           </ul>
         </nav>
         <div class="user-block">
-          <a class="login" href="#">Вход</a>
+          <a class="login" href="#">ВХОД</a>
         </div>
       </div>
     </header>
     <main class="container">
       <div class="index-logo">
-        <img src="/img/index-logo.jpg" width="100" height="100" alt="Borodinsky Logo">
+        <img src="/img/index-logo.png" alt="">
       </div>
       <section class="features">
         <div class="feature-item">
-          <b class="feature-title">БЫСТРО</b>
+          <b class="feature-name">БЫСТРО</b>
           <p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО, И ВЫ — СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
         </div>
         <div class="feature-item">
-          <b class="feature-title">КРУТО</b>
-          <p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.</p>
+          <b class="feature-name">КРУТО</b>
+          <p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ</p>
         </div>
         <div class="feature-item">
-          <b class="feature-title">ДОРОГО</b>
+          <b class="feature-name">ДОРОГО</b>
           <p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
         </div>
       </section>
@@ -53,12 +53,17 @@
               <time datetime="01-01-2017">25 сентября</time>
             </li>
           </ul>
-          <a href="#" class="btn">Все новости</a>
+          <a href="#" class="btn">ВСЕ НОВОСТИ</a>
         </div>
         <div class="index-content-right">
           <h2 class="index-content-title">ФОТОГАЛЕРЕЯ</h2>
-          <button class="btn gallery-prev">НАЗАД</button>
-          <button class="btn gallery-next">ВПЕРЕД</button>
+          <div class="photogallery">
+            <figure class="gallery-content">
+              <img src="/img/index-logo.png" width="100" height="100" alt="Cat">
+            </figure>
+            <button class="btn gallery-prev"></button>
+            <button class="btn gallery-next"></button>
+          </div>
         </div>
       </div>
       <div class="index-content">
@@ -74,41 +79,41 @@
             ПН — ПТ: С 10:00 ДО 22:00<br>
             СБ — ВС: С 10:00 ДО 19:00
           </p>
-          <a href="#" class="btn">Как проехать</a>
-          <a href="#" class="btn">Обратная связь</a>
+          <a href="#" class="btn">КАК ПРОЕХАТЬ</a>
+          <a href="#" class="btn">ОБРАТНАЯ СВЯЗЬ</a>
         </div>
         <div class="index-content-right">
           <h2 class="index-content-title">ЗАПИСАТЬСЯ</h2>
           <p>УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ, И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
-          <form class="" action="index.html" method="post">
+          <form class="appointment-form" action="index.html" method="post">
             <input type="text" name="" value="">
             <input type="text" name="" value="">
             <input type="text" name="" value="">
             <input type="text" name="" value="">
-            <button type="button" name="button"></button>
+            <button type="submit" class="btn">ОТПРАВИТЬ</button>
           </form>
         </div>
       </div>
     </main>
     <footer class="main-footer">
       <div class="container">
-          <div class="footer-contacts">
-            <p>
-              BARBERSHOP «BORODINSKI»
-              АДРЕС: Г. МОСКВА, УЛ. СОБАКИ ПАВЛОВА, Д. 13
-              ТЕЛЕФОН: +7 (495) 666-02-666
-            </p>
-          </div>
-          <div class="footer-social-buttons">
-            <p>ДАВАЙТЕ ДРУЖИТЬ!</p>
-            <a href="#" class="btn social-btn-vk">ВКонтакте</a>
-            <a href="#" class="btn social-btn-fb">Фейсбук</a>
-            <a href="#" class="btn social-btn-inst">Инстаграм</a>
-          </div>
-          <div class="copiright">
-            <p>ДИЗАЙН САЙТА:</p>
-            <a href="#" class="btn">GLUKHANKO.RU</a>
-          </div>
+        <div class="footer-contacts">
+          <p>
+            BARBERSHOP «BORODINSKI»<br>
+            АДРЕС: Г. МОСКВА, УЛ. СОБАКИ ПАВЛОВА, Д. 13<br>
+            ТЕЛЕФОН: +7 (495) 666-02-666
+          </p>
+        </div>
+        <div class="footer-social-icons">
+          <p>ДАВАЙТЕ ДРУЖИТЬ</p>
+          <a class="social-btn social-btn-vk" href="#">VKontakte</a>
+          <a class="social-btn social-btn-vk" href="#">VKontakte</a>
+          <a class="social-btn social-btn-vk" href="#">VKontakte</a>
+        </div>
+        <div class="footer-copyright">
+          <p>ДИЗАЙН САЙТА</p>
+          <a class="btn" href="#">Copiright</a>
+        </div>
       </div>
     </footer>
   </body>
